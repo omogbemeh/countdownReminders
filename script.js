@@ -45,7 +45,7 @@ const newYearCountDown = () => {
 };
 
 const travelTimer = () => {
-	const dDay = new Date(2021, 11, 15);
+	const dDay = new Date(2021, 11, 20);
 	const diff = Math.trunc((dDay - now) / millisecondsToDay);
 	switch (diff) {
 		case 1:
